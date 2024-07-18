@@ -8,15 +8,15 @@
       "BaseName": "Baytown",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 28
+          "Level": 65,
+          "Experience": 456572
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 37
+          "Level": 53,
+          "Experience": 147772
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115928
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Baytown",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 28
+            "Level": 65,
+            "Experience": 453516
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 37
+            "Level": 53,
+            "Experience": 145275
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

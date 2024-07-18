@@ -8,15 +8,15 @@
       "BaseName": "Ironbrook",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 28
+          "Level": 65,
+          "Experience": 449715
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 31
+          "Level": 53,
+          "Experience": 148195
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 122540
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Ironbrook",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 28
+            "Level": 65,
+            "Experience": 458286
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 31
+            "Level": 53,
+            "Experience": 150232
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

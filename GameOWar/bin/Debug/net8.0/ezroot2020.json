@@ -8,15 +8,15 @@
       "BaseName": "Riverford",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 32
+          "Level": 65,
+          "Experience": 451091
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 37
+          "Level": 53,
+          "Experience": 145729
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 114291
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Riverford",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 32
+            "Level": 65,
+            "Experience": 452838
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 37
+            "Level": 53,
+            "Experience": 146796
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

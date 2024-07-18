@@ -23,17 +23,18 @@ public class Base
     {
         BaseName = name;
         WorldTile = location;
-
         EventHub.Subscribe<EventOnTick>(OnTick_Simulate);
     }
 
     public Base()
     {
+        EventHub.Subscribe<EventOnTick>(OnTick_Simulate);
+
     }
 
     public void SetOwner(string owner, bool sendToDiscord = true)
     {
-        if (!string.IsNullOrEmpty(Owner)) BotManager.Instance.Game.WorldMap.FindPlayer(owner).PlayerBases.Remove(this);
+        if (!string.IsNullOrEmpty(Owner)) BotManager.Instance.Game.WorldMap.FindPlayer(Owner).PlayerBases.Remove(this);
         Owner = owner;
         if(sendToDiscord) BotManager.Instance.QueueMessage($"{BaseName} Setting owner to {Owner}");
     }

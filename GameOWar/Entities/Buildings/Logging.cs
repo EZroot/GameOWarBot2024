@@ -10,7 +10,7 @@ public class Logging : Building
     {
         // Logic to extract ore
         //Console.WriteLine("Mining 10 ore");
-        var result = new Random().Next(10 * (int)Level) + 10 * Level;
+        var result = Level;//new Random().Next(10 * (int)Level) + 10 * Level;
         playerBase.CollectResource(new Tree(result));
         GainExperience(result);
     }

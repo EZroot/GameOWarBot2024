@@ -8,15 +8,15 @@
       "BaseName": "Gladewood",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 24
+          "Level": 65,
+          "Experience": 453083
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 24
+          "Level": 53,
+          "Experience": 150275
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 114536
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Gladewood",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 24
+            "Level": 65,
+            "Experience": 450378
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 24
+            "Level": 53,
+            "Experience": 142716
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

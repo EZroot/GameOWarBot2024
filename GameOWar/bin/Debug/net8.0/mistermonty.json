@@ -8,33 +8,270 @@
       "BaseName": "Wolfwood",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 630,
           "Name": "House",
-          "Level": 1,
-          "Experience": 29
+          "Level": 63,
+          "Experience": 381291
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 31
+          "Level": 51,
+          "Experience": 121732
+        },
+        {
+          "Name": "Mine",
+          "Level": 63,
+          "Experience": 386803
+        },
+        {
+          "Name": "Farm",
+          "Level": 63,
+          "Experience": 377770
+        },
+        {
+          "Population": 260,
+          "Name": "House",
+          "Level": 26,
+          "Experience": 9557
+        },
+        {
+          "Population": 150,
+          "Name": "Barracks",
+          "Level": 15,
+          "Experience": 2476
+        },
+        {
+          "Name": "Logging",
+          "Level": 26,
+          "Experience": 9145
+        },
+        {
+          "Population": 150,
+          "Name": "Barracks",
+          "Level": 15,
+          "Experience": 2638
+        },
+        {
+          "Population": 260,
+          "Name": "House",
+          "Level": 26,
+          "Experience": 8850
+        },
+        {
+          "Name": "Logging",
+          "Level": 25,
+          "Experience": 8255
+        },
+        {
+          "Population": 250,
+          "Name": "House",
+          "Level": 25,
+          "Experience": 8595
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 15,
+          "Experience": 2692
+        },
+        {
+          "Name": "Mine",
+          "Level": 24,
+          "Experience": 7522
+        },
+        {
+          "Name": "Logging",
+          "Level": 23,
+          "Experience": 6991
+        },
+        {
+          "Population": 230,
+          "Name": "House",
+          "Level": 23,
+          "Experience": 6963
+        },
+        {
+          "Name": "Farm",
+          "Level": 23,
+          "Experience": 6328
+        },
+        {
+          "Population": 140,
+          "Name": "Barracks",
+          "Level": 14,
+          "Experience": 2232
+        },
+        {
+          "Population": 130,
+          "Name": "Barracks",
+          "Level": 13,
+          "Experience": 2083
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 13,
+          "Experience": 1942
+        },
+        {
+          "Population": 230,
+          "Name": "House",
+          "Level": 23,
+          "Experience": 6694
+        },
+        {
+          "Population": 250,
+          "Name": "House",
+          "Level": 25,
+          "Experience": 7924
+        },
+        {
+          "Population": 150,
+          "Name": "Barracks",
+          "Level": 15,
+          "Experience": 2437
+        },
+        {
+          "Population": 240,
+          "Name": "House",
+          "Level": 24,
+          "Experience": 7465
+        },
+        {
+          "Population": 230,
+          "Name": "House",
+          "Level": 23,
+          "Experience": 6862
+        },
+        {
+          "Population": 130,
+          "Name": "Barracks",
+          "Level": 13,
+          "Experience": 1918
+        },
+        {
+          "Name": "Farm",
+          "Level": 23,
+          "Experience": 6315
+        },
+        {
+          "Population": 240,
+          "Name": "House",
+          "Level": 24,
+          "Experience": 7237
+        },
+        {
+          "Name": "Farm",
+          "Level": 23,
+          "Experience": 6896
+        },
+        {
+          "Population": 130,
+          "Name": "Barracks",
+          "Level": 13,
+          "Experience": 1947
+        },
+        {
+          "Population": 240,
+          "Name": "House",
+          "Level": 24,
+          "Experience": 7149
+        },
+        {
+          "Population": 140,
+          "Name": "Barracks",
+          "Level": 14,
+          "Experience": 2288
+        },
+        {
+          "Population": 140,
+          "Name": "Barracks",
+          "Level": 14,
+          "Experience": 2257
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 14,
+          "Experience": 2120
+        },
+        {
+          "Population": 130,
+          "Name": "Barracks",
+          "Level": 13,
+          "Experience": 2012
+        },
+        {
+          "Population": 130,
+          "Name": "Barracks",
+          "Level": 13,
+          "Experience": 1884
+        },
+        {
+          "Population": 130,
+          "Name": "Barracks",
+          "Level": 13,
+          "Experience": 2036
+        },
+        {
+          "Population": 150,
+          "Name": "Barracks",
+          "Level": 15,
+          "Experience": 2534
+        },
+        {
+          "Name": "Farm",
+          "Level": 23,
+          "Experience": 6752
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 14,
+          "Experience": 2341
+        },
+        {
+          "Name": "Farm",
+          "Level": 23,
+          "Experience": 6855
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 14,
+          "Experience": 2169
         }
       ],
-      "Resources": [],
-      "Troops": [],
+      "Resources": [
+        {
+          "Name": "Ore",
+          "Quantity": 1548
+        },
+        {
+          "Name": "Food",
+          "Quantity": 371561
+        },
+        {
+          "Name": "Tree",
+          "Quantity": 1386
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 178,
+          "Level": 1
+        }
+      ],
       "WorldTile": {
         "X": 81,
         "Y": 4,
         "Biome": 0
       },
-      "Population": 0,
-      "PredictedPopulation": 10,
+      "Population": 106,
+      "PredictedPopulation": 3060,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 10573571
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +280,15 @@
         "BaseName": "Wolfwood",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 29
+            "Level": 65,
+            "Experience": 466268
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 31
+            "Level": 53,
+            "Experience": 142163
           }
         ],
         "Resources": [],
@@ -62,7 +299,91 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      },
+      {
+        "Owner": "aniki0442",
+        "BaseName": "Lakemarch",
+        "Buildings": [
+          {
+            "Population": 650,
+            "Name": "House",
+            "Level": 65,
+            "Experience": 455503
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 53,
+            "Experience": 150285
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 52,
+          "Y": 4,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 650,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      },
+      {
+        "Owner": "wayne3639",
+        "BaseName": "Greenpoint",
+        "Buildings": [
+          {
+            "Population": 650,
+            "Name": "House",
+            "Level": 65,
+            "Experience": 454306
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 53,
+            "Experience": 142313
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 100,
+          "Y": 0,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 650,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      },
+      {
+        "Owner": "ezroot2020",
+        "BaseName": "Riverford",
+        "Buildings": [
+          {
+            "Population": 650,
+            "Name": "House",
+            "Level": 65,
+            "Experience": 451091
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 53,
+            "Experience": 145729
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 69,
+          "Y": 54,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

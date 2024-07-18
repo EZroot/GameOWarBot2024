@@ -43,54 +43,7 @@ public class Game
                 player = new Player(0, p, 1, new List<Base> { playerbase }, new Currency("Money", 200));
                 DataManager.SavePlayer(player, player.UserName + ".json");
             }
-            //if (player != null)
-            //{
-            //    Console.WriteLine($"Loaded [Player]: {player.ID}");
-            //    Console.WriteLine($"Loaded [Player]: {player.UserName}");
-            //    Console.WriteLine($"Loaded [Player]: {player.Currency.Name}");
-            //    Console.WriteLine($"Loaded [Player]: {player.Currency.Amount}");
-            //    foreach (var b in player.PlayerBases)
-            //    {
-            //        Console.WriteLine($"Loaded [Base]: {b.BaseName}");
-            //        Console.WriteLine($"Loaded [Base]: {b.WorldTile.X},{b.WorldTile.Y}");
-            //        Console.WriteLine($"Loaded [Base]: {b.Owner}");
-            //        Console.WriteLine($"Loaded [Base]: {b.Population}");
-            //        foreach (var n in b.Buildings)
-            //        {
-            //            Console.WriteLine($"Loaded [Building]: {n.Name}");
-            //            Console.WriteLine($"Loaded [Building]: {n.Level}");
-
-            //        }
-            //        foreach (var n in b.Troops)
-            //        {
-            //            Console.WriteLine($"Loaded [Troop]: {n.Name}");
-            //            Console.WriteLine($"Loaded [Troop]: {n.Level}");
-
-            //        }
-
-            //    }
-
-            //    foreach (var b in player.Knowledge.BaseKnowledge)
-            //    {
-            //        Console.WriteLine($"Loaded Knowledge [Base]: {b.BaseName}");
-            //        Console.WriteLine($"Loaded Knowledge [Base]: {b.WorldTile.X},{b.WorldTile.Y}");
-            //        Console.WriteLine($"Loaded Knowledge [Base]: {b.Owner}");
-            //        Console.WriteLine($"Loaded Knowledge [Base]: {b.Population}");
-            //        foreach (var n in b.Buildings)
-            //        {
-            //            Console.WriteLine($"Loaded Knowledge [Building]: {n.Name}");
-            //            Console.WriteLine($"Loaded Knowledge [Building]: {n.Level}");
-
-            //        }
-            //        foreach (var n in b.Troops)
-            //        {
-            //            Console.WriteLine($"Loaded Knowledge [Troop]: {n.Name}");
-            //            Console.WriteLine($"Loaded Knowledge [Troop]: {n.Level}");
-
-            //        }
-
-            //    }
-            //}
+            
             foreach (var playerBase in player.PlayerBases)
                 _worldMap.AddBase(playerBase);
             _worldMap.AddPlayer(player);

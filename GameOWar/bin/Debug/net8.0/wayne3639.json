@@ -8,15 +8,15 @@
       "BaseName": "Greenpoint",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 27
+          "Level": 65,
+          "Experience": 454306
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 31
+          "Level": 53,
+          "Experience": 142313
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115349
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Greenpoint",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 27
+            "Level": 65,
+            "Experience": 451028
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 31
+            "Level": 53,
+            "Experience": 147789
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

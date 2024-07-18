@@ -1,5 +1,6 @@
 ﻿
 using GameOWar.Entities;
+using System.Diagnostics;
 
 [Serializable]
 public class MarketPlace : Building
@@ -21,6 +22,7 @@ public class MarketPlace : Building
 
         var sales = (long)(oreToSell + treeToSell);
 
+        Console.WriteLine($"[Marketplace] Adding {Level} + {sales} to {owner.Currency.Amount}");
         owner.Currency.Amount += Level + sales;
 
         var result = (new Random().Next((int)Level * 10) + Level + 10);

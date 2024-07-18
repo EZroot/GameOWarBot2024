@@ -8,15 +8,15 @@
       "BaseName": "Ironfort",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 28
+          "Level": 65,
+          "Experience": 454956
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 34
+          "Level": 53,
+          "Experience": 147445
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115689
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Ironfort",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 28
+            "Level": 65,
+            "Experience": 453998
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 34
+            "Level": 53,
+            "Experience": 148290
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

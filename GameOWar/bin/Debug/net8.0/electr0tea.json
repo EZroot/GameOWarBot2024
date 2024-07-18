@@ -8,15 +8,15 @@
       "BaseName": "Moonwold",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 640,
           "Name": "House",
-          "Level": 1,
-          "Experience": 23
+          "Level": 64,
+          "Experience": 448691
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 33
+          "Level": 54,
+          "Experience": 153347
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 640,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115691
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Moonwold",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 23
+            "Level": 65,
+            "Experience": 450035
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 33
+            "Level": 53,
+            "Experience": 141177
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

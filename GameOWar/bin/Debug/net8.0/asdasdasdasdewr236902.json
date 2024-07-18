@@ -8,15 +8,15 @@
       "BaseName": "Greenfall",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 640,
           "Name": "House",
-          "Level": 1,
-          "Experience": 29
+          "Level": 64,
+          "Experience": 443472
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 30
+          "Level": 53,
+          "Experience": 150800
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 640,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115227
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Greenfall",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 29
+            "Level": 65,
+            "Experience": 455738
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 30
+            "Level": 53,
+            "Experience": 144055
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

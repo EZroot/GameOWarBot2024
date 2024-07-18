@@ -215,7 +215,12 @@ namespace DiscordBot
                             var marketCount = playerBase.Buildings.Count(x => x.Name == "MarketPlace");
                             var mineCount = playerBase.Buildings.Count(x => x.Name == "Mine");
                             var farmCount = playerBase.Buildings.Count(x => x.Name == "Farm");
-                            stats += $"House:{houseCount} Barracks:{barrackCount} Markets:{marketCount} Farm:{farmCount} Mine:{mineCount}\n";
+                            var loggingCount = playerBase.Buildings.Count(x => x.Name == "Logging");
+                            var foodCount = playerBase.Resources.Find(x => x.Name == "Food")?.Quantity ?? 0;
+                            var oreCount = playerBase.Resources.Find(x => x.Name == "Ore")?.Quantity ?? 0;
+                            var treeCount = playerBase.Resources.Find(x => x.Name == "Tree")?.Quantity ?? 0;
+                            stats += $"House:{houseCount} Barracks:{barrackCount} Markets:{marketCount} Farm:{farmCount} Mine:{mineCount} Logging:{loggingCount}\n";
+                            stats += $"Food:{foodCount} Ore:{oreCount} Trees:{treeCount}\n";
                             if (playerBase.IsPerformingAction) stats += $"* is scouting or attacking right now.\n";
                             if (playerBase.IsTroopsRecovering) stats += $"* is recovering troops.\n";
                         }
@@ -229,17 +234,22 @@ namespace DiscordBot
                         var user = command.User as IGuildUser;
                         var worldMap = _game.WorldMap;
                         var player = worldMap.WorldPlayers.Find(x => x.UserName == user.Username.ToLower());
-                        var stats = $"{player.UserName} ${player.Currency.Amount}\n";
+                        var stats = $"{player.UserName} \n";//${player.Currency.Amount}\n";
                         foreach (var playerBase in player.Knowledge.BaseKnowledge)
                         {
-                            stats += $"[{playerBase.BaseName}]\n";
+                            stats += $"[{playerBase.Owner}] -> [{playerBase.BaseName}]\n";
                             stats += $"Pop:{playerBase.Population}/{playerBase.PredictedPopulation} Troops:{playerBase.TotalTroopCount()}\n";
                             var houseCount = playerBase.Buildings.Count(x => x.Name == "House");
                             var barrackCount = playerBase.Buildings.Count(x => x.Name == "Barracks");
                             var marketCount = playerBase.Buildings.Count(x => x.Name == "MarketPlace");
                             var mineCount = playerBase.Buildings.Count(x => x.Name == "Mine");
                             var farmCount = playerBase.Buildings.Count(x => x.Name == "Farm");
-                            stats += $"House:{houseCount} Barracks:{barrackCount} Markets:{marketCount} Farm:{farmCount} Mine:{mineCount}\n";
+                            var loggingCount = playerBase.Buildings.Count(x => x.Name == "Logging");
+                            var foodCount = playerBase.Resources.Find(x => x.Name == "Food")?.Quantity ?? 0;
+                            var oreCount = playerBase.Resources.Find(x => x.Name == "Ore")?.Quantity ?? 0;
+                            var treeCount = playerBase.Resources.Find(x => x.Name == "Tree")?.Quantity ?? 0;
+                            stats += $"House:{houseCount} Barracks:{barrackCount} Markets:{marketCount} Farm:{farmCount} Mine:{mineCount} Logging:{loggingCount}\n";
+                            //stats += $"Food:{foodCount} Ore:{oreCount} Trees:{treeCount}\n";
                             if (playerBase.IsPerformingAction) stats += $"* is scouting or attacking right now.\n";
                             if (playerBase.IsTroopsRecovering) stats += $"* is recovering troops.\n";
                         }

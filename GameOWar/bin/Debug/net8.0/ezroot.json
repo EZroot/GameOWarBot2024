@@ -8,33 +8,113 @@
       "BaseName": "Whitemead",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 640,
           "Name": "House",
-          "Level": 1,
-          "Experience": 18
+          "Level": 64,
+          "Experience": 410398
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 11
+          "Level": 52,
+          "Experience": 126265
+        },
+        {
+          "Name": "Farm",
+          "Level": 63,
+          "Experience": 406791
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 52,
+          "Experience": 132017
+        },
+        {
+          "Population": 560,
+          "Name": "House",
+          "Level": 56,
+          "Experience": 194200
+        },
+        {
+          "Population": 560,
+          "Name": "House",
+          "Level": 56,
+          "Experience": 190949
+        },
+        {
+          "Population": 440,
+          "Name": "Barracks",
+          "Level": 44,
+          "Experience": 56788
+        },
+        {
+          "Name": "Mine",
+          "Level": 56,
+          "Experience": 185904
+        },
+        {
+          "Population": 560,
+          "Name": "House",
+          "Level": 56,
+          "Experience": 185173
+        },
+        {
+          "Population": 560,
+          "Name": "House",
+          "Level": 56,
+          "Experience": 186002
+        },
+        {
+          "Population": 430,
+          "Name": "Barracks",
+          "Level": 43,
+          "Experience": 55539
+        },
+        {
+          "Name": "Logging",
+          "Level": 55,
+          "Experience": 180013
         }
       ],
-      "Resources": [],
-      "Troops": [],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 144915
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 4293
+        },
+        {
+          "Name": "Tree",
+          "Quantity": 4430
+        }
+      ],
+      "Troops": [
+        {
+          "Name": null,
+          "Amount": 0,
+          "Level": 0
+        },
+        {
+          "Name": "infantry",
+          "Amount": 366,
+          "Level": 1
+        }
+      ],
       "WorldTile": {
         "X": 95,
         "Y": 61,
         "Biome": 0
       },
-      "Population": 0,
-      "PredictedPopulation": 10,
-      "IsPerformingAction": true,
-      "IsTroopsRecovering": false
+      "Population": 48,
+      "PredictedPopulation": 2880,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": true
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 0
+    "Amount": 3746722
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +123,15 @@
         "BaseName": "Whitemead",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 640,
             "Name": "House",
-            "Level": 1,
-            "Experience": 18
+            "Level": 64,
+            "Experience": 446158
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 11
+            "Level": 53,
+            "Experience": 142547
           }
         ],
         "Resources": [],
@@ -62,7 +142,91 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 640,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      },
+      {
+        "Owner": "huckabeast",
+        "BaseName": "Redside",
+        "Buildings": [
+          {
+            "Population": 650,
+            "Name": "House",
+            "Level": 65,
+            "Experience": 454597
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 53,
+            "Experience": 144698
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 113,
+          "Y": 57,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 650,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      },
+      {
+        "Owner": "skipper.mp3",
+        "BaseName": "Fortbridge",
+        "Buildings": [
+          {
+            "Population": 650,
+            "Name": "House",
+            "Level": 65,
+            "Experience": 452177
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 53,
+            "Experience": 143015
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 95,
+          "Y": 53,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 650,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      },
+      {
+        "Owner": ".towerxvi",
+        "BaseName": "Ironbrook",
+        "Buildings": [
+          {
+            "Population": 640,
+            "Name": "House",
+            "Level": 64,
+            "Experience": 447733
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 53,
+            "Experience": 146158
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 114,
+          "Y": 73,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 640,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

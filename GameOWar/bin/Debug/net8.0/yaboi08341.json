@@ -8,15 +8,15 @@
       "BaseName": "Glenpoint",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 640,
           "Name": "House",
-          "Level": 1,
-          "Experience": 29
+          "Level": 64,
+          "Experience": 448055
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 30
+          "Level": 53,
+          "Experience": 147803
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 640,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115130
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Glenpoint",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 640,
             "Name": "House",
-            "Level": 1,
-            "Experience": 29
+            "Level": 64,
+            "Experience": 440425
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 30
+            "Level": 53,
+            "Experience": 142677
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 640,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

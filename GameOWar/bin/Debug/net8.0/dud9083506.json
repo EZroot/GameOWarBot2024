@@ -8,15 +8,15 @@
       "BaseName": "Westtown",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 640,
           "Name": "House",
-          "Level": 1,
-          "Experience": 35
+          "Level": 64,
+          "Experience": 444984
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 37
+          "Level": 53,
+          "Experience": 145005
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 640,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115115
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Westtown",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 640,
             "Name": "House",
-            "Level": 1,
-            "Experience": 35
+            "Level": 64,
+            "Experience": 448150
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 37
+            "Level": 53,
+            "Experience": 143474
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 640,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }

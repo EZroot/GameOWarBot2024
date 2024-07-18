@@ -8,15 +8,15 @@
       "BaseName": "Whitefalls",
       "Buildings": [
         {
-          "Population": 10,
+          "Population": 650,
           "Name": "House",
-          "Level": 1,
-          "Experience": 36
+          "Level": 65,
+          "Experience": 452897
         },
         {
           "Name": "MarketPlace",
-          "Level": 1,
-          "Experience": 38
+          "Level": 53,
+          "Experience": 145273
         }
       ],
       "Resources": [],
@@ -27,14 +27,14 @@
         "Biome": 0
       },
       "Population": 0,
-      "PredictedPopulation": 10,
+      "PredictedPopulation": 650,
       "IsPerformingAction": false,
       "IsTroopsRecovering": false
     }
   ],
   "Currency": {
     "Name": "Money",
-    "Amount": 202
+    "Amount": 115440
   },
   "Knowledge": {
     "BaseKnowledge": [
@@ -43,15 +43,15 @@
         "BaseName": "Whitefalls",
         "Buildings": [
           {
-            "Population": 10,
+            "Population": 650,
             "Name": "House",
-            "Level": 1,
-            "Experience": 36
+            "Level": 65,
+            "Experience": 459633
           },
           {
             "Name": "MarketPlace",
-            "Level": 1,
-            "Experience": 38
+            "Level": 53,
+            "Experience": 146922
           }
         ],
         "Resources": [],
@@ -62,7 +62,7 @@
           "Biome": 0
         },
         "Population": 0,
-        "PredictedPopulation": 10,
+        "PredictedPopulation": 650,
         "IsPerformingAction": false,
         "IsTroopsRecovering": false
       }
