@@ -38,12 +38,14 @@ namespace GameOWar.Commands
                     message += ($"\nBase {playerBase.BaseName} has no owner!!!\n");
                     continue;
                 }
-                playerBase.Owner.Currency.Amount += new Random().Next((int)playerBase.Population);
+                var player = BotManager.Instance.Game.WorldMap.FindPlayer(playerBase.Owner);
+
+                player.Currency.Amount += new Random().Next((int)playerBase.Population);
                     var houseCount = playerBase.Buildings.FindAll(x => x.Name == "House");
                     long predictedPopulation = 0;
                     foreach (House house in houseCount) predictedPopulation += house.Population;
 
-                    message += ($"{playerBase.Owner.UserName} |{playerBase.BaseName}| ${playerBase.Owner.Currency.Amount} Pop:{playerBase.Population}/{predictedPopulation} Troops:{playerBase.TotalTroopCount()}\n");
+                    message += ($"{player.UserName} |{playerBase.BaseName}| ${player.Currency.Amount} Pop:{playerBase.Population}/{predictedPopulation} Troops:{playerBase.TotalTroopCount()}\n");
                 //}
             }
             BotManager.Instance.QueueMessage($"{message}");

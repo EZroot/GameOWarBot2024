@@ -1,6 +1,7 @@
 ﻿using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
+using GameOWar;
 using System.Collections.Concurrent;
 using System.Reflection;
 using System.Text;
@@ -23,7 +24,7 @@ namespace DiscordBot
         private BotManager()
         {
             _messageQueue = new ConcurrentQueue<string>();
-            _messageTimer = new System.Timers.Timer(ConfigManager.TICK_INTERVAL); // Set the interval as needed (e.g., 1000ms = 1s)
+            _messageTimer = new System.Timers.Timer(GameSettings.TICK_INTERVAL); 
             _messageTimer.Elapsed += SendQueuedMessage;
             _messageTimer.AutoReset = true;
             _messageTimer.Start();
@@ -56,14 +57,14 @@ namespace DiscordBot
         public DiscordSocketClient Client => _client;
         public Game Game => _game;
         public ulong GuildID => 308708637679812608;
-        public ulong ChannelID => 1262884786637111376;
+        public ulong ChannelID => 1263290434193719328;
 
         public async Task Initialize()
         {
 
             _client = new DiscordSocketClient(new DiscordSocketConfig
             {
-                // Enable the necessary gateway intents here
+                // Enable the necessary gateway intents 
                 GatewayIntents = GatewayIntents.Guilds |
                                  GatewayIntents.GuildMessages |
                                  GatewayIntents.MessageContent |
@@ -78,9 +79,9 @@ namespace DiscordBot
             await _client.LoginAsync(TokenType.Bot, "MTI2MjQ3NjU0NjQxNzg4OTM4MQ.GFTbuw.-8-ncmdsH00uQibeKyibLhgnKXmcHBKOmALHC8");//token.ApiKey.Trim());
             await _client.StartAsync();
 
-            // Hook into the Ready event
             _client.Ready += Client_Ready;
             _client.MessageReceived += MessageReceivedAsync;
+
             // Block this task until the program is closed.
             await Task.Delay(-1);
         }
@@ -107,7 +108,11 @@ namespace DiscordBot
             .WithName("status")
             .WithDescription("Checks on the status of your bases");
 
-            var slashCommands = new SlashCommandBuilder[] { helpCommand, optIn, optOut, status };  
+            var knowledge = new SlashCommandBuilder()
+            .WithName("knowledge")
+            .WithDescription("Checks in on your players knowledge");
+
+            var slashCommands = new SlashCommandBuilder[] { helpCommand, optIn, optOut, status, knowledge };  
             foreach(var slashCmd in slashCommands)
             {
                 await guild.CreateApplicationCommandAsync(slashCmd.Build());
@@ -122,10 +127,13 @@ namespace DiscordBot
             // Extract usernames from the filtered users
             var usernames = humanUsers.Select(user => user.Username).ToArray();
 
-            _game = new Game();
-            _game.Start(usernames);
+            _ = Task.Run(() =>
+            {
+                _game = new Game();
+                _game.Start(usernames);
+            });
 
-            await SendMessage("Game O' War has started!");
+            //await SendMessage("Game O' War has started!");
         }
 
         private async Task MessageReceivedAsync(SocketMessage message)
@@ -168,10 +176,7 @@ namespace DiscordBot
                 case "help":
                     //_ = Task.Run(async () => await command.RespondAsync(text: "Showing commands", ephemeral: true));
                     _game.GenerateCommands();
-                    await command.DeferAsync();
-                    CommandParser.ShowCommands(command.User.Username.ToString().ToLower());
-                    await command.DeleteOriginalResponseAsync();
-
+                    await command.RespondAsync(CommandParser.GetAllCommands(), ephemeral:true);
                     break;
                 case "optin":
                     _ = Task.Run(async () =>
@@ -202,6 +207,30 @@ namespace DiscordBot
                         var player = worldMap.WorldPlayers.Find(x => x.UserName == user.Username.ToLower());
                         var stats = $"{player.UserName} ${player.Currency.Amount}\n";
                         foreach(var playerBase in player.PlayerBases)
+                        {
+                            stats += $"[{playerBase.BaseName}]\n";
+                            stats += $"Pop:{playerBase.Population}/{playerBase.PredictedPopulation} Troops:{playerBase.TotalTroopCount()}\n";
+                            var houseCount = playerBase.Buildings.Count(x => x.Name == "House");
+                            var barrackCount = playerBase.Buildings.Count(x => x.Name == "Barracks");
+                            var marketCount = playerBase.Buildings.Count(x => x.Name == "MarketPlace");
+                            var mineCount = playerBase.Buildings.Count(x => x.Name == "Mine");
+                            var farmCount = playerBase.Buildings.Count(x => x.Name == "Farm");
+                            stats += $"House:{houseCount} Barracks:{barrackCount} Markets:{marketCount} Farm:{farmCount} Mine:{mineCount}\n";
+                            if (playerBase.IsPerformingAction) stats += $"* is scouting or attacking right now.\n";
+                            if (playerBase.IsTroopsRecovering) stats += $"* is recovering troops.\n";
+                        }
+                        await command.ModifyOriginalResponseAsync((m) => m.Content = stats);
+                    });
+                    break;
+                case "knowledge":
+                    _ = Task.Run(async () =>
+                    {
+                        await command.RespondAsync(text: "Checking on your knowledge...", ephemeral: true);
+                        var user = command.User as IGuildUser;
+                        var worldMap = _game.WorldMap;
+                        var player = worldMap.WorldPlayers.Find(x => x.UserName == user.Username.ToLower());
+                        var stats = $"{player.UserName} ${player.Currency.Amount}\n";
+                        foreach (var playerBase in player.Knowledge.BaseKnowledge)
                         {
                             stats += $"[{playerBase.BaseName}]\n";
                             stats += $"Pop:{playerBase.Population}/{playerBase.PredictedPopulation} Troops:{playerBase.TotalTroopCount()}\n";

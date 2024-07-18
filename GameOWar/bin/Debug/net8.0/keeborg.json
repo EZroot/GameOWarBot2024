@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "keeborg",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "keeborg",
+      "BaseName": "Whitefalls",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 36
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 38
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 48,
+        "Y": 42,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "keeborg",
+        "BaseName": "Whitefalls",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 36
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 38
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 48,
+          "Y": 42,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

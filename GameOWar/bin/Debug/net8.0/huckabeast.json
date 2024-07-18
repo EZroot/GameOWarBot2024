@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "huckabeast",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "huckabeast",
+      "BaseName": "Redside",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 35
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 30
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 113,
+        "Y": 57,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "huckabeast",
+        "BaseName": "Redside",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 35
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 30
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 113,
+          "Y": 57,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

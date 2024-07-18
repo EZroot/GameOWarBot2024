@@ -5,7 +5,6 @@ using System.Text.Json;
 
 public static class ConfigManager
 {
-    public const int TICK_INTERVAL = 60000; //60 seconds
     private const string ConfigFilePath = "config.json";
 
     public static Config LoadConfig()

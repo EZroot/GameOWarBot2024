@@ -1,0 +1,145 @@
+{
+  "ID": 225,
+  "UserName": "Kenneth",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "Kenneth",
+      "BaseName": "Frostwold",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 32
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 27
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 29
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 32
+        }
+      ],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 19
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 31
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 1,
+          "Level": 1
+        }
+      ],
+      "WorldTile": {
+        "X": 115,
+        "Y": 110,
+        "Biome": 1
+      },
+      "Population": 0,
+      "PredictedPopulation": 20,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 37
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "Kenneth",
+        "BaseName": "Frostwold",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 32
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 27
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 29
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 32
+          }
+        ],
+        "Resources": [
+          {
+            "Name": "Food",
+            "Quantity": 19
+          },
+          {
+            "Name": "Ore",
+            "Quantity": 31
+          }
+        ],
+        "Troops": [
+          {
+            "Name": "infantry",
+            "Amount": 1,
+            "Level": 1
+          }
+        ],
+        "WorldTile": {
+          "X": 115,
+          "Y": 110,
+          "Biome": 1
+        },
+        "Population": 0,
+        "PredictedPopulation": 20,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

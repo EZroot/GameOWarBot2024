@@ -2,6 +2,7 @@
 
 //Provides civilian storage increase
 
+[Serializable]
 public class House : Building
 {
     public long Population => Level * 10;

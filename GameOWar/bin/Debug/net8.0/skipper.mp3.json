@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "skipper.mp3",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "skipper.mp3",
+      "BaseName": "Fortbridge",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 33
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 34
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 95,
+        "Y": 53,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "skipper.mp3",
+        "BaseName": "Fortbridge",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 33
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 34
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 95,
+          "Y": 53,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

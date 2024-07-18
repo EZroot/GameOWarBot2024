@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "electr0tea",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "electr0tea",
+      "BaseName": "Moonwold",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 23
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 33
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 55,
+        "Y": 85,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "electr0tea",
+        "BaseName": "Moonwold",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 23
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 33
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 55,
+          "Y": 85,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

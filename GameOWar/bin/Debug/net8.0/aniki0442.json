@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "aniki0442",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "aniki0442",
+      "BaseName": "Lakemarch",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 30
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 52,
+        "Y": 4,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "aniki0442",
+        "BaseName": "Lakemarch",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 30
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 52,
+          "Y": 4,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

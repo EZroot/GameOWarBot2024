@@ -3,6 +3,7 @@ using GameOWar.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,12 +35,15 @@ namespace GameOWar.Commands
                 _attackingBase.IsPerformingAction = true;
             }
             base.StartMethod();
+            var player = BotManager.Instance.Game.WorldMap.FindPlayer(_attackingBase.Owner).UserName;
+            var target = BotManager.Instance.Game.WorldMap.FindPlayer(_targetBase.Owner).UserName;
+
             if (_attackingBase.IsPerformingAction && !_isPerformingBecauseOfMe)
             {
-                _ = Task.Run(async () => await BotManager.Instance.SendMessage($"{_attackingBase.Owner.UserName}'s [{_attackingBase.BaseName}] is already attack/scouting!"));
+                _ = Task.Run(async () => await BotManager.Instance.SendMessage($"{player}'s [{_attackingBase.BaseName}] is already attack/scouting!"));
                 return;
             }
-            _ = Task.Run(async () => await BotManager.Instance.SendMessage($"{_attackingBase.Owner.UserName}'s [{_attackingBase.BaseName}] is attacking {_targetBase.Owner.UserName}'s [{_targetBase.BaseName}] in {ticksRemaining} days."));
+            _ = Task.Run(async () => await BotManager.Instance.SendMessage($"{player}'s [{_attackingBase.BaseName}] is attacking {target}'s [{_targetBase.BaseName}] in {ticksRemaining} days."));
         }
 
         public override void OnTick()
@@ -49,14 +53,16 @@ namespace GameOWar.Commands
 
             if (ticksRemaining == 0) return;
 
+            var player = BotManager.Instance.Game.WorldMap.FindPlayer(_attackingBase.Owner).UserName;
+            var target = BotManager.Instance.Game.WorldMap.FindPlayer(_targetBase.Owner).UserName;
             if (ticksRemaining <= _startDuration / 2 && !_isHalfwayBuilt)
             {
-                BotManager.Instance.QueueMessage($"{_attackingBase.Owner.UserName}'s [{_attackingBase.BaseName}] troops are halfway toward {_targetBase.Owner.UserName}'s [{_targetBase.BaseName}].");
+                BotManager.Instance.QueueMessage($"{player}'s [{_attackingBase.BaseName}] troops are halfway toward {target}'s [{_targetBase.BaseName}].");
                 _isHalfwayBuilt = true;
             }
             else if (ticksRemaining <= _startDuration / 5 && !_isAlmostBuilt)
             {
-                BotManager.Instance.QueueMessage($"{_attackingBase.Owner.UserName}'s [{_attackingBase.BaseName}] troops are almost at {_targetBase.Owner.UserName}'s [{_targetBase.BaseName}].");
+                BotManager.Instance.QueueMessage($"{player}'s [{_attackingBase.BaseName}] troops are almost at {target}'s [{_targetBase.BaseName}].");
                 _isAlmostBuilt = true;
             }
         }
@@ -67,7 +73,9 @@ namespace GameOWar.Commands
             if (_attackingBase.IsPerformingAction && !_isPerformingBecauseOfMe) return;
             _isPerformingBecauseOfMe = false;
             _attackingBase.IsPerformingAction = false;
-            BotManager.Instance.QueueMessage($"{_attackingBase.Owner.UserName}'s [{_attackingBase.BaseName}] troops arrived at {_targetBase.Owner.UserName}'s [{_targetBase.BaseName}]!");
+            var player = BotManager.Instance.Game.WorldMap.FindPlayer(_attackingBase.Owner).UserName;
+            var target = BotManager.Instance.Game.WorldMap.FindPlayer(_targetBase.Owner).UserName;
+            BotManager.Instance.QueueMessage($"{player}'s [{_attackingBase.BaseName}] troops arrived at {target}'s [{_targetBase.BaseName}]!");
             CommandHub.RegisterCommand(new CommandSimulateCombat(DiceRoller.RollD20()+10, _attackingBase, _targetBase, _args));
         }
 

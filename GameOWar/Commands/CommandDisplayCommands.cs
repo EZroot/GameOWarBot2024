@@ -21,7 +21,7 @@ namespace GameOWar.Commands
         {
             base.StartMethod();
 
-            CommandParser.ShowCommands(_userName);
+            CommandParser.ShowCommands();
         }
 
         public override void OnTick()

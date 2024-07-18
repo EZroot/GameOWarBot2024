@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "wayne3639",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "wayne3639",
+      "BaseName": "Greenpoint",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 27
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 31
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 100,
+        "Y": 0,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "wayne3639",
+        "BaseName": "Greenpoint",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 27
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 31
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 100,
+          "Y": 0,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "yaboi08341",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "yaboi08341",
+      "BaseName": "Glenpoint",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 29
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 30
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 4,
+        "Y": 115,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "yaboi08341",
+        "BaseName": "Glenpoint",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 29
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 30
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 4,
+          "Y": 115,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

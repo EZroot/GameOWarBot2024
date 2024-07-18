@@ -1,6 +1,7 @@
 ﻿
 using GameOWar.Entities;
 
+[Serializable]
 public class Logging : Building
 {
     public Logging() : base("Logging") { }

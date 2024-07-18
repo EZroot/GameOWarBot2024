@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "mgg9179",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "mgg9179",
+      "BaseName": "Shadowtown",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 26
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 113,
+        "Y": 77,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "mgg9179",
+        "BaseName": "Shadowtown",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 26
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 113,
+          "Y": 77,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

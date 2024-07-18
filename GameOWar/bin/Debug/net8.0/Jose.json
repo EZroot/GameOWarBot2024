@@ -1,0 +1,225 @@
+{
+  "ID": 155,
+  "UserName": "Jose",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "Jose",
+      "BaseName": "Ironmill",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 29
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 36
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 27
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 36
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 27
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 23
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 30
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 30
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 29
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 32
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 33
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 26
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 32
+        }
+      ],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 51
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 56
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 1,
+          "Level": 1
+        }
+      ],
+      "WorldTile": {
+        "X": 43,
+        "Y": 112,
+        "Biome": 1
+      },
+      "Population": 1,
+      "PredictedPopulation": 60,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 45
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "Jose",
+        "BaseName": "Ironmill",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 29
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 36
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 27
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 36
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 27
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 23
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 30
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 30
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 29
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 32
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 33
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 26
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 32
+          }
+        ],
+        "Resources": [
+          {
+            "Name": "Food",
+            "Quantity": 51
+          },
+          {
+            "Name": "Ore",
+            "Quantity": 56
+          }
+        ],
+        "Troops": [
+          {
+            "Name": "infantry",
+            "Amount": 1,
+            "Level": 1
+          }
+        ],
+        "WorldTile": {
+          "X": 43,
+          "Y": 112,
+          "Biome": 1
+        },
+        "Population": 1,
+        "PredictedPopulation": 60,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

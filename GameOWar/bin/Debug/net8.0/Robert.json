@@ -1,0 +1,145 @@
+{
+  "ID": 95,
+  "UserName": "Robert",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "Robert",
+      "BaseName": "Summerfall",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 22
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 30
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 24
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 30
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 25
+        }
+      ],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 16
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 24
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 1,
+          "Level": 1
+        }
+      ],
+      "WorldTile": {
+        "X": 33,
+        "Y": 62,
+        "Biome": 1
+      },
+      "Population": 1,
+      "PredictedPopulation": 20,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 35
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "Robert",
+        "BaseName": "Summerfall",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 22
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 30
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 24
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 30
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 25
+          }
+        ],
+        "Resources": [
+          {
+            "Name": "Food",
+            "Quantity": 16
+          },
+          {
+            "Name": "Ore",
+            "Quantity": 24
+          }
+        ],
+        "Troops": [
+          {
+            "Name": "infantry",
+            "Amount": 1,
+            "Level": 1
+          }
+        ],
+        "WorldTile": {
+          "X": 33,
+          "Y": 62,
+          "Biome": 1
+        },
+        "Population": 1,
+        "PredictedPopulation": 20,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

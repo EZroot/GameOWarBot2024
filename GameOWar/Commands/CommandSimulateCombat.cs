@@ -47,12 +47,21 @@ namespace GameOWar.Commands
             if (_attackingBase.TotalTroopCount() < 1 || _targetBase.TotalTroopCount() < 1) _isBattleFinished = true;
             if (_isBattleFinished) { DisplayWinner(); return; }
 
-            var playerAttackRoll = DiceRoller.RollD20();
-            var targetAttackRoll = DiceRoller.RollD20();
+            // Calculate troop count differences
+            long attackingTroops = _attackingBase.TotalTroopCount();
+            long targetTroops = _targetBase.TotalTroopCount();
+            long troopDifference = attackingTroops - targetTroops;
+
+            // Calculate modifiers based on troop difference
+            long attackModifier = troopDifference > 0 ? troopDifference / 10 : 0; // Advantage to attacking base
+            long defenseModifier = troopDifference < 0 ? -troopDifference / 10 : 0; // Advantage to defending base
+
+            // Perform dice rolls with modifiers
+            int playerAttackRoll = DiceRoller.RollD20() + (int)attackModifier;
+            int targetAttackRoll = DiceRoller.RollD20() + (int)defenseModifier;
 
             if (playerAttackRoll > targetAttackRoll)
             {
-
                 BotManager.Instance.QueueMessage($"{_attackingBase.BaseName} won the roll with {playerAttackRoll} against {targetAttackRoll}.");
                 CalculateCasualties(_attackingBase, _targetBase, playerAttackRoll, targetAttackRoll);
             }
@@ -65,6 +74,7 @@ namespace GameOWar.Commands
             {
                 BotManager.Instance.QueueMessage("It's a tie! No casualties this round.");
             }
+
 
             BotManager.Instance.QueueMessage($"[{_attackingBase.BaseName}] has {_attackingBase.TotalTroopCount()} troops left.");
             BotManager.Instance.QueueMessage($"[{_targetBase.BaseName}] has {_targetBase.TotalTroopCount()} troops left.");

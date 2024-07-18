@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameOWar.Entities
 {
+    [Serializable]
     public class Player
     {
         public int ID;
@@ -14,6 +15,11 @@ namespace GameOWar.Entities
         public List<Base> PlayerBases;
         public Currency Currency;
         public PlayerKnowledge Knowledge;
+
+        public Player()
+        {
+        }
+
         public Player(int iD, string userName, int level, List<Base> playerBase, Currency currency)
         {
             ID = iD;
@@ -21,16 +27,23 @@ namespace GameOWar.Entities
             Level = level;
             PlayerBases = playerBase;
             Currency = currency;
-            foreach(var b in PlayerBases)
-                b.SetOwner(this, false);
-            Knowledge = new PlayerKnowledge(PlayerBases[0]);
+            if (PlayerBases != null)
+            {
+                foreach (var b in PlayerBases)
+                    b.SetOwner(userName, false);
+                Knowledge = new PlayerKnowledge(PlayerBases[0]);
+            }
         }
     }
-
+    [Serializable]
     public class Currency
     {
         public string Name;
         public long Amount;
+
+        public Currency()
+        {
+        }
 
         public Currency(string name, int amount)
         {
@@ -39,9 +52,14 @@ namespace GameOWar.Entities
         }
     }
 
+    [Serializable]
     public class PlayerKnowledge
     {
         public List<Base> BaseKnowledge;
+
+        public PlayerKnowledge()
+        {
+        }
 
         public PlayerKnowledge(Base playerBase)
         {

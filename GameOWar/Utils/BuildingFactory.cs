@@ -11,7 +11,8 @@ namespace GameOWar.Commands
             { "mine", () => new Mine() },
             { "house", () => new House() },
             { "barracks", () => new Barracks() },
-            { "marketplace", () => new MarketPlace() }
+            { "marketplace", () => new MarketPlace() },
+            { "logging", () => new Logging() }
             // Add more building types here
         };
     }

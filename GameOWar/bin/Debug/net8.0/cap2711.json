@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "cap2711",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "cap2711",
+      "BaseName": "Hillhaven",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 35
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 31
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 55,
+        "Y": 90,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "cap2711",
+        "BaseName": "Hillhaven",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 35
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 31
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 55,
+          "Y": 90,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

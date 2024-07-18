@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "ravencroftjay",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "ravencroftjay",
+      "BaseName": "Castlelands",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 29
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 108,
+        "Y": 94,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "ravencroftjay",
+        "BaseName": "Castlelands",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 29
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 108,
+          "Y": 94,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

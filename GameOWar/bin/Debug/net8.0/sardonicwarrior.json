@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "sardonicwarrior",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "sardonicwarrior",
+      "BaseName": "Newstrand",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 25
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 32
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 14,
+        "Y": 127,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "sardonicwarrior",
+        "BaseName": "Newstrand",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 25
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 32
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 14,
+          "Y": 127,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

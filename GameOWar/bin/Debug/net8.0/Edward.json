@@ -1,0 +1,189 @@
+{
+  "ID": 150,
+  "UserName": "Edward",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "Edward",
+      "BaseName": "Newfort",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 30
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 34
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 25
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 37
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 31
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 33
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 32
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 32
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 35
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 25
+        }
+      ],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 46
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 57
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 1,
+          "Level": 1
+        }
+      ],
+      "WorldTile": {
+        "X": 103,
+        "Y": 47,
+        "Biome": 1
+      },
+      "Population": 2,
+      "PredictedPopulation": 30,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 54
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "Edward",
+        "BaseName": "Newfort",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 30
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 34
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 25
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 37
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 31
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 33
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 32
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 32
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 35
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 25
+          }
+        ],
+        "Resources": [
+          {
+            "Name": "Food",
+            "Quantity": 46
+          },
+          {
+            "Name": "Ore",
+            "Quantity": 57
+          }
+        ],
+        "Troops": [
+          {
+            "Name": "infantry",
+            "Amount": 1,
+            "Level": 1
+          }
+        ],
+        "WorldTile": {
+          "X": 103,
+          "Y": 47,
+          "Biome": 1
+        },
+        "Population": 2,
+        "PredictedPopulation": 30,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

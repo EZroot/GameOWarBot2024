@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Text.Json.Serialization;
 
 namespace GameOWar.World
 {
@@ -23,10 +24,26 @@ namespace GameOWar.World
             SizeX = sizeX;
             SizeY = sizeY;
             Tiles = new WorldTile[SizeX, SizeY];
-            GenerateWorldMap();
-            GenerateBases();
+
+            var loadedTiles = DataManager.LoadWorldTiles("map.json");
+            if (loadedTiles == null || GameSettings.FORCE_CREATE_NEW_MAP)
+            {
+                GenerateWorldMap();
+                GenerateBases();
+            }
+            else
+            {
+                Tiles = loadedTiles;
+            }
+
+            DataManager.SaveWorldTiles(Tiles,"map.json");
             //DrawMap();
             //DrawMapToFile("WorldMap.png"); // Add this to save the map as a PNG file
+        }
+
+        public Player FindPlayer(string username)
+        {
+            return WorldPlayers.First(x => x.UserName.ToLower() == username.ToLower());
         }
 
         private void GenerateWorldMap()
@@ -220,7 +237,7 @@ namespace GameOWar.World
 
         public void AddBase(Base playerBase)
         {
-            Console.WriteLine($"Adding base {playerBase.BaseName} owner {playerBase.Owner.UserName}");
+            Console.WriteLine($"Adding base {playerBase.BaseName} owner {playerBase.Owner}");
             WorldBases.Add(playerBase);
         }
 
@@ -231,12 +248,14 @@ namespace GameOWar.World
         }
     }
 
+    [Serializable]
     public class WorldTile
     {
-        public int X { get; }
-        public int Y { get; }
+        public int X { get; set; }
+        public int Y { get; set; }
         public Biome Biome { get; set; } // Add biome property
 
+        public WorldTile() { }
         public WorldTile(int x, int y)
         {
             X = x;

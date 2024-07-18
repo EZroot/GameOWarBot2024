@@ -26,13 +26,14 @@ namespace GameOWar.Commands
         public override void StartMethod()
         {
             base.StartMethod();
-            if(_base.Owner.Currency.Amount < 10)
+            var player = BotManager.Instance.Game.WorldMap.FindPlayer(_base.Owner);
+            if (player.Currency.Amount < 100)
             {
-                _ = Task.Run(async () => await BotManager.Instance.SendMessage($"You can't afford {_args}. All buildings cost $10 each"));
+                _ = Task.Run(async () => await BotManager.Instance.SendMessage($"You can't afford {_args}. All buildings cost $100 each"));
                 _canBuild = false;
                 return;
             }
-            _base.Owner.Currency.Amount -= 10;
+            player.Currency.Amount -= 100;
             _ = Task.Run(async () => await BotManager.Instance.SendMessage($"[{_base.BaseName}] started building {_args}. Done in {ticksRemaining} days."));
         }
 
@@ -66,8 +67,9 @@ namespace GameOWar.Commands
                 case "house": _base.AddBuilding(new House()); break;
                 case "barracks": _base.AddBuilding(new Barracks()); break;
                 case "marketplace": _base.AddBuilding(new MarketPlace()); break;
+                case "logging": _base.AddBuilding(new Logging()); break;
             }
-           BotManager.Instance.QueueMessage($"[{_base.BaseName}] finished building {_args}");
+            BotManager.Instance.QueueMessage($"[{_base.BaseName}] finished building {_args}");
         }
 
     }

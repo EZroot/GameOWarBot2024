@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "ezroot",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "ezroot",
+      "BaseName": "Whitemead",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 18
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 11
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 95,
+        "Y": 61,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": true,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 0
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "ezroot",
+        "BaseName": "Whitemead",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 18
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 11
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 95,
+          "Y": 61,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

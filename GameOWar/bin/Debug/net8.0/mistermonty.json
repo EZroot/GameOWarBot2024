@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": "mistermonty",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "mistermonty",
+      "BaseName": "Wolfwood",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 29
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 31
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 81,
+        "Y": 4,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "mistermonty",
+        "BaseName": "Wolfwood",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 29
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 31
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 81,
+          "Y": 4,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "ID": 0,
+  "UserName": ".towerxvi",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": ".towerxvi",
+      "BaseName": "Ironbrook",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 31
+        }
+      ],
+      "Resources": [],
+      "Troops": [],
+      "WorldTile": {
+        "X": 114,
+        "Y": 73,
+        "Biome": 0
+      },
+      "Population": 0,
+      "PredictedPopulation": 10,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 202
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": ".towerxvi",
+        "BaseName": "Ironbrook",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 31
+          }
+        ],
+        "Resources": [],
+        "Troops": [],
+        "WorldTile": {
+          "X": 114,
+          "Y": 73,
+          "Biome": 0
+        },
+        "Population": 0,
+        "PredictedPopulation": 10,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

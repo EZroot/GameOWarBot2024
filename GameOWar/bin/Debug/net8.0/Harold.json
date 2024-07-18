@@ -1,0 +1,187 @@
+{
+  "ID": 78,
+  "UserName": "Harold",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "Harold",
+      "BaseName": "Castleshire",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 30
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 23
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 31
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 39
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 27
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 24
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 34
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 34
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 23
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 21
+        }
+      ],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 24
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 72
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 1,
+          "Level": 1
+        }
+      ],
+      "WorldTile": {
+        "X": 47,
+        "Y": 31,
+        "Biome": 1
+      },
+      "Population": 0,
+      "PredictedPopulation": 30,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 95
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "Harold",
+        "BaseName": "Castleshire",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 30
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 23
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 31
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 39
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 27
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 24
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 34
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 34
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 23
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 21
+          }
+        ],
+        "Resources": [
+          {
+            "Name": "Food",
+            "Quantity": 24
+          },
+          {
+            "Name": "Ore",
+            "Quantity": 72
+          }
+        ],
+        "Troops": [
+          {
+            "Name": "infantry",
+            "Amount": 1,
+            "Level": 1
+          }
+        ],
+        "WorldTile": {
+          "X": 47,
+          "Y": 31,
+          "Biome": 1
+        },
+        "Population": 0,
+        "PredictedPopulation": 30,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

@@ -1,4 +1,5 @@
-﻿public class Troop
+﻿[Serializable]
+public class Troop
 {
     public string Name { get; }
     public long Amount { get; private set; }
@@ -9,6 +10,10 @@
         Name = name;
         Amount = amount;
         Level = level;
+    }
+
+    public Troop()
+    {
     }
 
     public void AddTroopCount(long amount)

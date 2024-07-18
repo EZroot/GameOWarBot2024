@@ -1,12 +1,16 @@
 ﻿using GameOWar.Entities;
 
-public abstract class Building
+[Serializable]
+public class Building
 {
     public string Name { get; }
-    public long Level { get; protected set; }
-    public long Experience { get; protected set; }
+    public long Level { get; set; }
+    public long Experience { get; set; }
 
-    protected Building(string name)
+    public Building()
+    { }
+
+    public Building(string name)
     {
         Name = name;
         Level = 1;
@@ -37,5 +41,8 @@ public abstract class Building
         }
     }
 
-    public abstract void PerformTask(Player owner, Base playerBase);
+    public virtual void PerformTask(Player owner, Base playerBase)
+    {
+        
+    }
 }

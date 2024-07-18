@@ -1,0 +1,191 @@
+{
+  "ID": 198,
+  "UserName": "Douglas",
+  "Level": 1,
+  "PlayerBases": [
+    {
+      "Owner": "Douglas",
+      "BaseName": "Hollowgrove",
+      "Buildings": [
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 36
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 25
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 27
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 29
+        },
+        {
+          "Population": 10,
+          "Name": "House",
+          "Level": 1,
+          "Experience": 28
+        },
+        {
+          "Name": "MarketPlace",
+          "Level": 1,
+          "Experience": 34
+        },
+        {
+          "Population": 10,
+          "Name": "Barracks",
+          "Level": 1,
+          "Experience": 23
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 36
+        },
+        {
+          "Name": "Farm",
+          "Level": 1,
+          "Experience": 34
+        },
+        {
+          "Name": "Mine",
+          "Level": 1,
+          "Experience": 37
+        }
+      ],
+      "Resources": [
+        {
+          "Name": "Food",
+          "Quantity": 44
+        },
+        {
+          "Name": "Ore",
+          "Quantity": 36
+        }
+      ],
+      "Troops": [
+        {
+          "Name": "infantry",
+          "Amount": 1,
+          "Level": 1
+        }
+      ],
+      "WorldTile": {
+        "X": 72,
+        "Y": 126,
+        "Biome": 0
+      },
+      "Population": 4,
+      "PredictedPopulation": 50,
+      "IsPerformingAction": false,
+      "IsTroopsRecovering": false
+    }
+  ],
+  "Currency": {
+    "Name": "Money",
+    "Amount": 41
+  },
+  "Knowledge": {
+    "BaseKnowledge": [
+      {
+        "Owner": "Douglas",
+        "BaseName": "Hollowgrove",
+        "Buildings": [
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 36
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 25
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 27
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 29
+          },
+          {
+            "Population": 10,
+            "Name": "House",
+            "Level": 1,
+            "Experience": 28
+          },
+          {
+            "Name": "MarketPlace",
+            "Level": 1,
+            "Experience": 34
+          },
+          {
+            "Population": 10,
+            "Name": "Barracks",
+            "Level": 1,
+            "Experience": 23
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 36
+          },
+          {
+            "Name": "Farm",
+            "Level": 1,
+            "Experience": 34
+          },
+          {
+            "Name": "Mine",
+            "Level": 1,
+            "Experience": 37
+          }
+        ],
+        "Resources": [
+          {
+            "Name": "Food",
+            "Quantity": 44
+          },
+          {
+            "Name": "Ore",
+            "Quantity": 36
+          }
+        ],
+        "Troops": [
+          {
+            "Name": "infantry",
+            "Amount": 1,
+            "Level": 1
+          }
+        ],
+        "WorldTile": {
+          "X": 72,
+          "Y": 126,
+          "Biome": 0
+        },
+        "Population": 4,
+        "PredictedPopulation": 50,
+        "IsPerformingAction": false,
+        "IsTroopsRecovering": false
+      }
+    ]
+  }
+}

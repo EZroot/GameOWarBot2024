@@ -1,5 +1,6 @@
 ﻿using GameOWar.Entities;
 
+[Serializable]
 public class Farm : Building
 {
     public Farm() : base("Farm") { }
